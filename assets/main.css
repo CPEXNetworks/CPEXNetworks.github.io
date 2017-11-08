@@ -49,9 +49,15 @@ table {
 body {
   background: #244ba0 url("../images/background_blur.jpg") no-repeat center center fixed;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow: hidden; }
 
 .container {
@@ -63,7 +69,9 @@ body {
   height: 100%;
   background-color: rgba(255, 255, 255, 0.4);
   position: relative;
-  transform: skew(333deg); }
+  -webkit-transform: skew(333deg);
+      -ms-transform: skew(333deg);
+          transform: skew(333deg); }
 
 .front-band {
   width: 80%;
@@ -71,16 +79,24 @@ body {
   background-color: rgba(255, 255, 255, 0.85);
   position: relative;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .logo-container {
   top: 50%;
   left: 50%;
   width: 40%;
   position: absolute;
-  transform: translateX(-50%) translateY(-50%); }
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%); }
 
 .logo {
   width: 100%; }
