@@ -47,7 +47,7 @@ table {
   border-spacing: 0; }
 
 body {
-  background: #244ba0 url("../images/background.jpg") no-repeat center center fixed;
+  background: #244ba0 url("../images/background_blur.jpg") no-repeat center center fixed;
   background-size: cover;
   display: flex;
   align-items: center;
